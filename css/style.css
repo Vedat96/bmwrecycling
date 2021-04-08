@@ -1,0 +1,325 @@
+html, body{
+/*  background: url(../images/6.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+background-color: #f2f2f2;
+
+}
+.contaiuner{
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+.container a:hover{
+  color: blue;
+
+}
+.navbar{
+    background-color: #e6e6e4;
+/*    background-image: url("../images/bmw.jpg");*/
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar.navbar a:hover{
+  color:blue;
+
+}
+h1,h2{
+  margin-top: 0px;}
+
+/*ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+li a:hover {
+    
+  background: #333;
+  color: #fff;
+  padding: 15px 20px;
+}
+*/
+
+
+
+
+.logo {
+/*    width: 500px;
+    height: 100px;*/
+    width: 40%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+
+}
+
+.bmw{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  
+/*    display: block;
+    margin-left: auto;
+    margin-right: auto*/
+}
+
+.map{
+    height:250px;
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 10px 0;
+    position: relative;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    /*background: #007b5e !important;*/
+}
+#footer h5{
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: white;
+}
+#footer a {
+    color: black;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+@media only screen and (max-width: 991px) {
+/*    html, body {
+        background-color: lightblue;
+    }*/
+
+    .logo {
+        width: 60% ;
+
+    }
+
+}
+
+/*about page*/
+@media screen and (max-width: 767px) {
+    .custom-reverse { display: flex; flex-flow: column-reverse!important; }
+}
+
+/*.carousel-inner{
+  border-radius: 15px;
+}*/
+
+/*banner*/
+
+.banner {
+  float: left;
+  width: 100%;
+  /*background:url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);*/
+  /*background: url(../images/88.jpg);*/
+  /*https://i0.wp.com/media.giphy.com/media/5ERaOy5fQEIAU/giphy.gif*/
+  background-color: #333;
+  background-size: cover;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px;  
+    margin: 0px;
+  /*text-shadow: 1px 1px white;*/
+}
+
+
+/*.big-text {
+  font-size: 35px;
+  font-weight:800;
+  animation-delay: 1s;
+  
+}*/
+.banner a {
+  
+    border-radius: 10px;  
+    display: inline-block;
+
+
+    background: red;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: .3s;
+
+}
+.banner a:hover {
+    background: #fff;
+    color: #36465d;
+    padding: 15px 20px;
+    color: red;
+}
+
+/*.carousel-control{
+  width:10%;
+  border-radius:15px;
+}*/
+
+.carousel-caption {
+
+/*  top: 0px;
+  bottom: auto;*/
+    font-size: 40px;
+/*  float:left;*/
+    top:0; 
+    right: 0;
+    left: 0;
+    padding: 0px;
+
+
+/*  background-color: green;*/
+
+
+  }
+
+
+h1 {
+/*color: #999999;*/
+/*font-family: arial, sans-serif;*/
+font-size: 40px;
+/*font-weight: bold;*/
+padding: 3px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.carousel-caption .carouseltext1{
+    color: white;
+    background-color:   #464646; 
+    border-style: solid;
+    border-width: 1px 0px;
+    border-color:    #595959;
+    padding:3px;
+    opacity: 0.95;
+
+    
+ /* border-radius: 15px;*/
+  
+}
+.carouseltext2{
+
+    color:    #ffffff;
+    background-color:  #0579EB;
+  /*#737373*/
+/*  border-radius: 15px;
+*/  /*float: left;*/
+    margin-top: 25.2%;
+
+    width: 100%;
+    padding: 3px;
+
+/*  border-style: solid;
+  border-width: 1px 0px;
+  border-color: white;*/
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .carouseltext1 {
+        font-size: 30px;
+
+    }
+    .carouseltext2{
+        font-size: 30px;
+        margin-top: 22.3%;
+        padding: 0px;
+    }
+    h1{
+        font-size: 30px;
+        padding: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .carouseltext1 h1{
+        font-size: 25px;
+        padding: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+    .carouseltext2 h1{
+        font-size: 25px;
+        margin-top: 22%;
+        padding: 3px;
+        margin-bottom: 0px;
+    }
+/*    h1{
+        font-size: 25px;
+        padding: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }*/
+
+}
+
+@media (min-width: 320px) and (max-width: 755px) {
+    .carouseltext1 h1{
+        font-size: 20px;
+        padding: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .carouseltext2 h1{
+        font-size: 20px;
+        margin-top: 23%;
+        padding: 3px;
+        margin-bottom: 0px;
+    }
+/*    h1{
+        font-size: 15px;
+        padding: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }*/
+}
+
+
